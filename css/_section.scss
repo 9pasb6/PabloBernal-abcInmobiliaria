@@ -1,0 +1,129 @@
+// ------ VARIABLES -----
+
+@import "variables";
+
+
+// ---INDEX
+
+#section__inmu{
+    text-align: center;
+    background: linear-gradient( to top, $azul-petroleo-principal, $azul-petroleo-claro 85%);
+    /* background: linear-gradient( to right,$azul-petroleo-claro, #24303cb8, $azul-petroleo-claro); */
+    padding: 30px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+
+
+
+
+#fotoPrin {
+
+    padding: 70px;
+
+    background: linear-gradient( to bottom, #24303cb8, $azul-petroleo-claro 85%);
+    margin: 30px;
+    border-radius: 30px;
+    
+    img{
+
+    
+        border-radius: 30px;
+       
+       
+        
+    }
+   
+    
+}
+
+
+
+// ---NOSOTROS
+
+#section__nosotros{
+    margin: 15px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: $azul-petroleo-principal;
+    text-align: center;
+}
+
+
+
+#sectionDiv__logo{
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
+
+    img {
+        height:400px;
+        width: 400px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        
+        box-shadow: 7px 13px 37px #000;
+    
+        
+    }
+}
+
+
+
+#section__logo{
+    margin: 15px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: $azul-petroleo-principal;
+    box-shadow: 7px 13px 37px #000;
+    text-align: center;
+    border-style:double;
+}
+
+.sectionDiv__descripcion{
+    border-radius: 15px;
+    background: linear-gradient(to bottom, $azul-petroleo-principal 80%, $azul-petroleo-claro);
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    font-size: 18px;
+}
+
+.sectionDiv__mision{
+    padding: 30px;
+}
+
+
+
+
+// ---CONTACTO
+
+#section__contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+// #sectionDiv__contacto{
+//     padding: 40px;
+//     background-color: red;
+//     box-shadow: 7px 13px 37px #000;
+//     border-radius: 15px;
+//     border-style:double;
+
+// }
+
+
+#formDiv__contacto{
+
+    border-radius: 15px;
+    background: linear-gradient(to bottom, $azul-petroleo-principal 80%, $azul-petroleo-claro);
+    box-shadow: 7px 13px 37px #000;
+    height: 450px;
+    width: 400px;
+    padding: 30px;
+    font-size: 20px;
+
+}

@@ -1,0 +1,68 @@
+// ------ VARIABLES -----
+
+@import "variables";
+
+
+
+// -- ALL
+
+#footer__div1{
+    padding: 15px 0px 15px 15px;
+    
+    
+}
+
+.footer__lia{
+    font-size: 20px;   
+}
+
+#footer__div2{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    
+    
+    
+    
+}
+
+#footer__div2 {
+
+    li {
+    
+        font-size: 15px;   
+        list-style-type: none;
+        padding: 10px;
+        
+    
+    }
+
+    a {
+    
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        
+       
+        transition: height 1s, width 1s;
+    
+        &:hover{
+            font-size: 25px;
+            color: gray;
+        }
+    }
+
+    
+    
+}
+
+
+#footer__div3{
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 30px 0px 30px 30px;
+    font-size: 15px;
+}
+

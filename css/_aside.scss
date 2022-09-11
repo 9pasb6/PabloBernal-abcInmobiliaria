@@ -1,0 +1,56 @@
+// ------ VARIABLES -----
+
+@import "variables";
+
+
+
+// -- INDEX
+
+aside {
+    
+    margin: 30px 30px 30px 0px;
+}
+
+
+#aside__div{
+    border-radius: 15px;
+    background: linear-gradient(to bottom, $azul-petroleo-principal 80%, $azul-petroleo-claro);
+    box-shadow: 7px 13px 37px #000;
+    height: 500px;
+    padding: 30px;
+
+}
+
+.input-group{
+    margin-top: 20px;
+    
+    button{
+
+        background-color:white;
+
+        // el & es como poner la etiqueta del hover
+        &:hover{ 
+            background-color: $azul-petroleo-claro;
+            
+        }
+    }
+}
+
+/* ---ASIDE PAGE NOSOTROS */
+#aside__img{
+    height: 600px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+
+
+/* ---ASIDE PAGE CONTACTO--- */
+
+#aside__tel{
+    height: 500px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 7px 13px 37px #000;
+}
